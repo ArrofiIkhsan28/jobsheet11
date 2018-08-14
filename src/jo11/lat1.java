@@ -7,5 +7,5 @@ public class lat1 {
         System.out.println("identitas : " + identitas);
         
          
-    
+        
 }
