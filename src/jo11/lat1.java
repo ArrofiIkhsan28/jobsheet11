@@ -66,5 +66,10 @@ public class lat1 {
          System.out.println("pecah bedasarkan huruf 'r' di variable tclean : ");
          for(int i = 0;i<arrTr.length;i++)
              System.out.println(arrTr[i]);
+         
+          double d= 1545454000;
+         System.out.println(String.format("uang saya %,.4f", d));
+         
+         System.out.println(String.format(Locale.forLanguageTag("in-ID"), "uang saya Rp %,.2f", d));
     }
 }
