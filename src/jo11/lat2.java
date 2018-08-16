@@ -14,6 +14,7 @@ public class lat2 {
         tampiljudul(identitas);
         String kalimat = tampilInput();
         String convert = vocal2angka(kalimat);
+        tampilperkata(kalimat, convert);
     }
     private static String tampilInput() {
         Scanner scanner;
@@ -35,5 +36,13 @@ public class lat2 {
         kalimat = kalimat.replace(arConvert[i][0], arConvert[i][1]);
           String convert = vocal2angka(kalimat);
         return kalimat;
+     }
+     private static void tampilperkata(String kalimat,String convert) {
+        String[] arrKa1 = kalimat.split(" ");
+        String[] arrCon = convert.split(" ");
+                {
+                for(int i=0;i<arrKa1.length;i++)
+                    System.out.println(arrKa1[i]+"=>" + arrCon[i]);
+                }
      }
 }
