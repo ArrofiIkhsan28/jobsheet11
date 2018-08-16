@@ -19,6 +19,7 @@ public class Latiha2 {
         String kalimat = tampilInput();
         String convert = vocal2Angka(kalimat);
         tampilPerKata(kalimat, convert);
+        tampilHasil(convert);
     }
         private static String tampilInput(){
         Scanner ah = new Scanner(System.in);
@@ -46,4 +47,7 @@ public class Latiha2 {
             System.out.println(arrKal[i]+" => "+arrCon[i]);
         }
     }
+        private static void tampilHasil(String convert){
+        System.out.println("Kalimat Alay Angka : "+ convert);
+    }            
 }
