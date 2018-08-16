@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package jo11;
 import java.util.Scanner;
 public class lat2 {
@@ -13,5 +8,9 @@ public class lat2 {
         
        
         
+    }
+    public static void main(String[] args){
+        String identitas = "arrofi ikhsan nur abror/XRPL 2/08";
+        tampiljudul(identitas);
     }
 }
