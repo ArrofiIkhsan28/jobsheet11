@@ -15,6 +15,17 @@ public class lat1 {
         System.out.println("isi variable y : " + y);
         System.out.println("y adalah kosong : " + y.isEmpty());
         
+        System.out.println("isi x sama dengan y: " + x.equals(y));
+        
+        String z = "Operasi";
+        System.out.println("isi variable z :"+ z);
+        System.out.println("isi x sama dengan z (case sensitive) : " +x.equals(z));
+        
+        String r = "operasi";
+        System.out.println("isi variable r : " + r);
+        System.out.println("isi x sama dengan z (case sensitive) :" + x.equals(r));
+        System.out.println("isi r sama dengan r (not case sensitive)" + x.equalsIgnoreCase(r));
+        
     }
          
         
