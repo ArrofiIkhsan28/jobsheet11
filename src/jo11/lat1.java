@@ -26,6 +26,9 @@ public class lat1 {
         System.out.println("isi x sama dengan z (case sensitive) :" + x.equals(r));
         System.out.println("isi r sama dengan r (not case sensitive)" + x.equalsIgnoreCase(r));
         
+        String s = "operasi";
+        System.out.println("isi variable s :" +s);
+        System.out.println("perbandingan isi r dengan s (case sensitive) :"+r.compareTo(s));
     }
          
         
