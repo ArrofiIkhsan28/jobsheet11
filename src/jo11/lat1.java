@@ -6,6 +6,7 @@ public class lat1 {
        String identitas = "Arrofi Ikhsan Nur Abror / X RPL 2 / 8";
         System.out.println("identitas : " + identitas);
         
+    }
          
         
 }
