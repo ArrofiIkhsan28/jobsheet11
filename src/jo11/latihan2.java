@@ -11,6 +11,18 @@ public class latihan2 {
     public static void main(String[] args){
         String identitas = "arrofi ikhsan nur abror/XRPL 2/08";
         tampiljudul(identitas);
+         String kalimat = tampilInput();
     }
+    private static String tampilInput() {
+        Scanner scanner;
+        scanner = new Scanner(System.in);
+        
+        System.out.println("Masukkan kalimat : ");
+        String kalimat = scanner.nextLine();
+        System.out.println("kalimat asli : " + kalimat);
+        
+        return kalimat;
+    }
+   
     
 }
